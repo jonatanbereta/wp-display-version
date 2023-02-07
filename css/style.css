@@ -1,7 +1,7 @@
 
 
 div{
-    padding: 8px;
+    padding: 8px 8px 0 8px;
     font-size: 16px;
     color: rgb(71, 70, 70);
 }
@@ -42,4 +42,18 @@ ul.subversion{
     border: 1px solid #a5a0a0;
     padding: 5px;
     border-bottom: 1px solid #a5a0a0;
+}
+
+p.time{
+    margin: 0;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+
+}
+
+.time em{
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 8px;
 }
