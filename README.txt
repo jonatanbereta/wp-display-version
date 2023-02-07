@@ -2,7 +2,7 @@ Installation:
 
 1) Télécharger le repo au format .zip : Cliquez sur le bouton vert <<code>> puis sur << Download Zip >>
 2) Installez l'extension dans WP:
-    Va dans Plugins - add Plugin - upload le fichier << .zip >> téléchargé
+    Va dans Plugins - add Plugin - charger le fichier (.zip) téléchargé
 
 Exemples d’utilisation :
 
