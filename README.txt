@@ -8,13 +8,7 @@ Exemples d’utilisation :
 
 [wp_version type="validate" version="5.1" color="no"]
 
-[wp_version type="validate"]
-
-[wp_version type="validate" version="7"]
-
 [wp_version type="subversion" version="5.1"]
-
-[wp_version type="subversion" version="7"]
 
 [wp_version type="mine" ]
 
