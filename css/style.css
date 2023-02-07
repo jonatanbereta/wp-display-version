@@ -1,0 +1,45 @@
+
+
+div{
+    padding: 8px;
+    font-size: 16px;
+    color: rgb(71, 70, 70);
+}
+
+div.text-green,b.text-green,p.text-green,span.text-green{
+    color: #008000;
+    font-weight: normal;
+}
+
+div.text-red,b.text-red,p.text-red,span.text-red{
+    color: #ff0000;
+    font-weight: normal;
+}
+
+div.text-orange,b.text-orange,p.text-orange,span.text-orange{
+    color: #ffa500;
+    font-weight: normal;
+}
+
+div.text-purple,b.text-purple,p.text-purple,span.text-purple{
+    color:#800080;
+    font-weight: normal;
+}
+
+
+ul.subversion{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.subversion li{
+    border: 1px solid #a5a0a0;
+    padding: 5px;
+    border-bottom: none;
+}
+
+.subversion li:last-of-type{
+    border: 1px solid #a5a0a0;
+    padding: 5px;
+    border-bottom: 1px solid #a5a0a0;
+}
