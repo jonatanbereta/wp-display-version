@@ -46,6 +46,7 @@ function wp_version_validate(string $version, array $data)
     return null;
 }
 
+
 function wp_version_status(string $version, ?string $status, string $color)
 {
 
@@ -115,7 +116,7 @@ function wp_version_mine(array $data, string $color)
 
 function display_wp_date()
 {
-    $display="<p class='time'>Last API call: ".get_option('wp_data_update_time')." <em class='dashicons dashicons-image-rotate'></em></p>";
-
+    $display="<p class='time'>Last API call: ".get_option('wp_data_update_time')." <em class='fa-solid fa-rotate-right'></em></p>";
+    
     return $display;
 }

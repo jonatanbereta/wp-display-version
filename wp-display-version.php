@@ -16,6 +16,7 @@ require __DIR__ . "/inc/helpers.php";
 
 function wp_version_add_stylesheet()
 {
+    wp_enqueue_style('wp-version-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css', array(), false, 'all');
     wp_enqueue_style('wp-version-style', plugin_dir_url(__FILE__) . '/css/style.css', array(), filemtime(__DIR__ . '/css/style.css'), 'all');
 }
 add_action('wp_enqueue_scripts', 'wp_version_add_stylesheet');

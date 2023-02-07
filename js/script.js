@@ -1,7 +1,5 @@
 jQuery(document).ready(function ($) {
-
-    $(".dashicons-image-rotate").click(function () {
+    $(".fa-rotate-right").click(function () {
         location.reload();
     })
-
 });

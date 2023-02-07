@@ -10,6 +10,5 @@ function maxValueInArray($array, $keyToSearch)
             }
         }
     }
-
     return $currentMax;
 }

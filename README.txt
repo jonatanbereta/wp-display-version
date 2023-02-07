@@ -1,19 +1,24 @@
 Exemples d’utilisation :
 
-[wpversion type="latest"]
+[wp_version type="latest"]
 
-Affiche la plus récente version de WordPress. (ex. 6.1.1)
+[wp_version type="latest" color="no"]
 
-[wpversion type="validate" version="5.1"]
+[wp_version type="validate" version="5.1"]
 
-Valide le statut de la version WordPress en retournant l’une des valeurs suivantes: latest(green), outdated(orange), insecure(red). Les couleurs doivent être affichées selon le type de version.
+[wp_version type="validate" version="5.1" color="no"]
 
-[wpversion type="subversion" version="5.9"]
+[wp_version type="validate"]
 
-Affiche un tableau montrant la liste de toutes sous versions d’une version majeure.
-[wpversion type="mine"]
+[wp_version type="validate" version="7"]
 
-Affiche la version de WordPress du site sur lequel est installée l’extension. Le code de couleur du shortcode de validation doit être utilisé lors de l’affichage de la version (green,orange,red).
+[wp_version type="subversion" version="5.1"]
+
+[wp_version type="subversion" version="7"]
+
+[wp_version type="mine" ]
+
+[wp_version type="mine" color="no"]
 
 
 - Une interface est disponible pour indiquer la date de dernière récupération des
