@@ -1,3 +1,9 @@
+Installation:
+
+1) Télécharger le repo au format .zip
+2) Installez l'extension dans WP:
+    Va dans Plugins - add Plugin - upload le fichier << .zip >> téléchargé
+
 Exemples d’utilisation :
 
 [wp_version type="latest"]
