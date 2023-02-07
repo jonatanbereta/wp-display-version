@@ -1,5 +1,3 @@
-
-
 Exemples d’utilisation :
 
 [wpversion type="latest"]

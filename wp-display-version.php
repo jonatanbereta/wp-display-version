@@ -1,8 +1,8 @@
 <?php
 /*
 Plugin Name: WP Display Version
-Plugin URI: https://example.com/nome-do-plugin
-Description: Plugin to display versions of WP, test to SateliteWP
+Plugin URI: https://github.com/jonatanbereta/wp-display-version.git
+Description: Plugin to display versions of WP
 Version: 1.0
 Author: Jonatan Bereta
 Author URI: https://jonatanbereta.netlify.app
